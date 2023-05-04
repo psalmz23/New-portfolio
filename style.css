@@ -239,6 +239,11 @@ a.navlink:hover {
     padding: 0 100px;
 }
 
+.port {
+    width: 300px;
+    height: auto;
+}
+
 /* ------ END OF PROJECT SECTION ------ */
 
 
