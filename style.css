@@ -200,6 +200,14 @@ a.navlink:hover {
     font-size: 44px;
 }
 
+.skillset {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
 
 /* ------ THE FOOTER SECTION ------ */
 .foot-container {
