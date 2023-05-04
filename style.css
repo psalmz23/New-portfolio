@@ -19,6 +19,25 @@ header {
     position: relative;
 }
 
+/* li.nav-link a:link,
+li.navlink a:visited {
+    padding: 8px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+} */
+
+.nav-link a:hover,
+.navlink a:active {
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+    border-bottom: 2px solid #cf6d17;
+}
+
 button {
     padding: 10px 25px;
     background: transparent;
@@ -43,7 +62,7 @@ button {
 }
 
 .textbox h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
 
 }
@@ -73,19 +92,12 @@ button {
     color: white;
     position: absolute;
     bottom: 35%;
-    left: 6%;  
-    text-align: left;
+    left: 32%;  
+    text-align: center;
 }
 
-header img {
-    width: 300px;
-    height: 250px;
-    margin: 120px 700px;
-    border-radius: 80%;
-    position: absolute;
-}
 
-/* BUTTONS */
+/* --------BUTTONS----------- */
 .btn-cv {
     background-color: red;
     color: white;
@@ -202,7 +214,7 @@ a.navlink:hover {
 }
 
 .skillset {
-    background-color: rgb(229, 229, 230);
+    background-color: rgba(245, 245, 245, 0.514);
     display: flex;
     gap:  40px 50px;
     flex-wrap: wrap;
@@ -232,11 +244,19 @@ a.navlink:hover {
 }
 
 .project-container {
+    /* background-color: rgb(207, 95, 91); */
     text-align: center;
+    justify-content: center;
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
-    padding: 0 100px;
+    padding: 40px 100px;
+}
+
+.project-container .pro1 {
+    /* background-color: rgb(207, 95, 91); */
+    border-radius: 10px;
 }
 
 .port {
@@ -249,32 +269,42 @@ a.navlink:hover {
 
 
 
-/* .pro1 p a {
-    text-align: left;
-  
-} */
-
-
 /* ------ THE FOOTER SECTION ------ */
 .foot-container {
     width: 60%;
     margin: auto;
-    background-color: rgba(24, 23, 23, 0.507);
 }
 
 input, textarea {
     /* background-color: beige; */
     /* color: burlywoo; */
     width: 100%;
-    border: none;
-    border-bottom: 1px solid black;
+    /* border: none;
+    border-bottom: 1px solid black; */
     /* border: 1px solid grey; */
     padding: 12px 20px;
 }
 
+.btn-send {
+        padding: 10px 25px;
+        background: rgb(240, 13, 13);
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        border-radius: 20px;
+        outline: none;
+        cursor: pointer;
+        width: 200px;
+}
 
 .form-field {
     padding: 20px;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.514);
+}
+
+.form_details {
+    padding-bottom: 10px;
 }
 
 .footer-foot {
@@ -283,3 +313,8 @@ input, textarea {
 }
 
 /* ------END OF FOOTER SECTION ----------- */
+
+
+@media  600px {
+    
+}
