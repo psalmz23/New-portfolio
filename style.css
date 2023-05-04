@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(131, 27, 27, 0.788), rgba(0, 0, 0, 0.925)), url(bg_cover.JPG);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+button {
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.navlink {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.navmenu {
+    flex: 1;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.textbox h1 {
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.textbox p {
+    font-size: 16px;
+    /* padding-bottom: 8px; */
+    font-weight: 300;
+}
+
+.textbox h3 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    padding: 10px 80px;
+
+}
+
+
+
+.hero .textbox {
+    color: white;
+    position: absolute;
+    bottom: 35%;
+    left: 6%;  
+    text-align: left;
+}
+
+header img {
+    width: 300px;
+    height: 250px;
+    margin: 120px 700px;
+    border-radius: 80%;
+    position: absolute;
+}
+
+/* BUTTONS */
+.btn-cv {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+a {
+    color: white;
+}
+
+/* .btn-cv :hover{
+    /* background-color: black; */
+    color: rgb(199, 197, 197);
+    font-size: 20px;
+    transition: 0.5s;
+} */
+
+
+
+/* ---------- THE ABOUT ME SECTION ----------- */
+
+.about-me {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.abt {
+    display: flex;
+    padding: 40px 60px;
+}
+
+.abt img {
+    height: 500px;
+    width: 450px; 
+    border-radius: 20px; 
+}
+
+.abt-me-text {
+    padding: 50px;
+    font-size: 24px;
+}
+
+
+
+.abt p {
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+/* .mypic {
+    flex-basis: 30%;
+} */
+/* .about-me-text {
+    font-size: 25px;
+}
+
+
+.mypic {
+    flex: 40%;
+} */
+
+.mypic img {
+    height: 500px;
+    width: 450px;
+}
+
+/* .about-me-text {
+    padding: 0 30px;
+    /* width: 50%; */
+    /* height: 50vh; */
+} */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a.navlink:hover {
+    color: rgb(208, 212, 216);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+
+
+    
+
+#portfolio {
+    width: 100%;
+    height: 100vh;
+    background: wheat;
+    padding: 0 8%;
+}
+
+
+
+/* ------ THE FOOTER SECTION ------ */
+.foot-container {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(24, 23, 23, 0.507);
+}
+
+input, textarea {
+    /* background-color: beige; */
+    /* color: burlywoo; */
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    /* border: 1px solid grey; */
+    padding: 12px 20px;
+}
+
+
+.form-field {
+    padding: 20px;
+}
+
+.footer-foot {
+    text-align: center;
+    padding: 15px 20px;
+}
+
