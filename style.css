@@ -212,6 +212,7 @@ a.navlink:hover {
     padding: 80px 100px;
     margin: 40px 0;
     font-size: 20px;
+
 }
 
 .skillset .myskillset {
@@ -220,11 +221,13 @@ a.navlink:hover {
     width: calc(100% / 3);
 }
 
+/* ------ THE PROJECT SECTION ------ */
 #project h1 {
     text-align: center;
     font-size: 44px;
 }
 
+/* ------ END OF PROJECT SECTION ------ */
 
 
 
