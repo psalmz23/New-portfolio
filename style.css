@@ -201,12 +201,25 @@ a.navlink:hover {
 }
 
 .skillset {
+    background-color: rgb(229, 229, 230);
     display: flex;
+    flex-basis: 300px;
+    gap: 5em;
+    flex-wrap: wrap;
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 20px 100px;
 }
+
+#project h1 {
+    text-align: center;
+    font-size: 44px;
+}
+
+
+
+
 
 
 /* ------ THE FOOTER SECTION ------ */
