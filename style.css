@@ -250,6 +250,11 @@ i.fa-circle-check {
 #gallery h1 {
     text-align: center;
     font-size: 44px;
+    padding: 20px 0;
+}
+
+#gallery {
+    background-color: rgba(245, 245, 245, 0.514);
 }
 
 .gallery {
@@ -259,7 +264,8 @@ i.fa-circle-check {
     align-items: center;
     justify-content: space-around;
     gap: 20px 40px;
-    
+    padding-bottom: 40px;
+    /* margin: 40px 0; */
 }
 
 .pic-gallery {
