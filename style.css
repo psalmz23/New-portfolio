@@ -230,8 +230,8 @@ a.navlink:hover {
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 100px;
-    margin: 40px 0;
+    padding: 80px 160px;
+    margin: 40px 0 0 0;
     font-size: 20px;
 }
 
@@ -242,6 +242,10 @@ a.navlink:hover {
     text-align: left;
 }
 
+i.fa-circle-check {
+    color: red;
+    padding-right: 20px;
+}
 /* ------ THE PROJECT SECTION ------ */
 #project {
     width: 100%;
