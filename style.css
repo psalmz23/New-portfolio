@@ -239,6 +239,7 @@ a.navlink:hover {
     /* flex: 0 0 400px; */
     /* position: relative; */
     width: calc(100% / 3);
+    text-align: left;
 }
 
 /* ------ THE PROJECT SECTION ------ */
