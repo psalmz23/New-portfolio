@@ -246,6 +246,28 @@ i.fa-circle-check {
     color: red;
     padding-right: 20px;
 }
+
+.gallery h1 {
+    text-align: center;
+    font-size: 44px;
+}
+
+.gallery {
+    text-align: center;
+    align-items: center;
+    flex: calc(100% / 3);
+}
+
+.pic-gallery {
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+
+}
+
+.pic-gallery img {
+    width: 500px;
+    height: 320px;
+}
 /* ------ THE PROJECT SECTION ------ */
 #project {
     width: 100%;
