@@ -247,21 +247,23 @@ i.fa-circle-check {
     padding-right: 20px;
 }
 
-.gallery h1 {
+#gallery h1 {
     text-align: center;
     font-size: 44px;
 }
 
 .gallery {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     align-items: center;
-    flex: calc(100% / 3);
+    justify-content: space-around;
+    gap: 20px 40px;
+    
 }
 
 .pic-gallery {
-    /* display: flex; */
-    /* flex-wrap: nowrap; */
-
+    width: calc(100% / 3);
 }
 
 .pic-gallery img {
