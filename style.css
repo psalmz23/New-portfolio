@@ -148,6 +148,15 @@ a {
     font-size: 24px;
 }
 
+.abt-me-text .social-links {
+    color: red;
+    padding-top: 20px;
+}
+
+i.fa-brands {
+    padding: 0 8px;
+}
+
 
 
 .abt p {
